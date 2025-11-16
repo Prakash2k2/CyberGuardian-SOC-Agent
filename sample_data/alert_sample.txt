@@ -1,0 +1,1 @@
+High priority alert: multiple failed login attempts from 203.0.113.12. Suspicious GET to https://malicious.example.com/login.php with SQL error messages observed in payload. Possible SQL Injection attempts.
