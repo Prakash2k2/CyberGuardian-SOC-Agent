@@ -56,39 +56,39 @@ Coordinates the pipeline:
 
 ### Create and activate virtual environment 
 #### Windows :-
-```Powershell
+Powershell
 python -m venv venv
 .\venv\Scripts\Activate.ps1
 
 #### macOS/Linux :-
-```Terminal
+Terminal
 python3 -m venv venv
 source venv/bin/activate
 
-# Install dependencies :-
+### Install dependencies :-
 pip install -r requirements.txt
 
-# Run the demo :-
+### Run the demo :-
 python run.py --demo sample_data/alert_sample.txt
 
 
-# You will see output like :-
+### You will see output like :-
 
 --- Generated Incident Report ---
 # Incident Report
 ...
 Report saved to reports/report_1.md
 
-# Sample Input (alert text) :-
+### Sample Input (alert text) :-
 
 High priority alert: multiple failed login attempts from 203.0.113.12.
 Suspicious GET to https://malicious.example.com/login.php with SQL errors.
 Possible SQL Injection attempts.
 
-# Sample Output (summary) :-
+### Sample Output (summary) :-
 
 Extracted IP: 203.0.113.12
 Extracted URL: https://malicious.example.com/login.php
 Attack Classification: SQL Injection
 Threat Intel: Stubbed offline result (can be replaced with real TI)
-Auto-generated Markdown report.
+Auto-generated Markdown report.s
