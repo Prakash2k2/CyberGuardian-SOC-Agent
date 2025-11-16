@@ -1,4 +1,4 @@
-# CyberGuardian — Automated SOC Incident Analysis Agent  
+# CyberGuardian SOC Agent  
 ### Kaggle · Google AI Agents Intensive · Capstone Project  
 Track: **Enterprise Agents**
 
