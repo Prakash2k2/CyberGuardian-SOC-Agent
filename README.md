@@ -57,12 +57,12 @@ Coordinates the pipeline:
 ### Create and activate virtual environment 
 #### Windows :-
 Powershell
-python -m venv venv
+python -m venv venv >> 
 .\venv\Scripts\Activate.ps1
 
 #### macOS/Linux :-
 Terminal
-python3 -m venv venv
+python3 -m venv venv >> 
 source venv/bin/activate
 
 ### Install dependencies :-
@@ -75,7 +75,7 @@ python run.py --demo sample_data/alert_sample.txt
 ### You will see output like :-
 
 --- Generated Incident Report ---
-# Incident Report
+#### Incident Report
 ...
 Report saved to reports/report_1.md
 
